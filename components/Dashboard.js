@@ -54,7 +54,7 @@ export default function Dashboard({ stats }) {
               style={{ width: `${Math.min(budgetUsagePercent, 100)}%` }}
             ></div>
           </div>
-          <div style={{ fontSize: '0.9rem', marginTop: '5px', color: '#666' }}>
+          <div className="budget-percentage">
             {budgetUsagePercent.toFixed(1)}% of budget
           </div>
         </div>

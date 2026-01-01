@@ -1,8 +1,8 @@
 @echo off
-REM Wedding Expense Calculator - Next.js Startup Script for Windows
+REM Jitendra Wedding Expense Calculator - Next.js Startup Script for Windows
 
 echo ================================================
-echo    Wedding Expense Calculator (Next.js)
+echo    Jitendra Wedding Expense Calculator (Next.js)
 echo ================================================
 echo.
 

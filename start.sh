@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Wedding Expense Calculator - Next.js Startup Script
+# Jitendra Wedding Expense Calculator - Next.js Startup Script
 
 echo "================================================"
-echo "   Wedding Expense Calculator (Next.js)"
+echo "   Jitendra Wedding Expense Calculator (Next.js)"
 echo "================================================"
 echo ""
 

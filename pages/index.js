@@ -210,15 +210,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wedding Expense Calculator</title>
+        <title>Jitendra Wedding Expense Calculator</title>
         <meta name="description" content="Track your wedding expenses and budget" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <div className="container">
         <div className="header">
-          <h1>Wedding Expense Calculator</h1>
-          <p>Track your wedding expenses and stay within budget</p>
+          <h1>Jitendra Wedding Expense Calculator</h1>
         </div>
 
         <BudgetForm currentBudget={budget} onUpdate={handleUpdateBudget} />

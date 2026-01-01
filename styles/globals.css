@@ -32,12 +32,12 @@ code {
 }
 
 .header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 8px;
 }
 
 .header p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   opacity: 0.9;
 }
 
@@ -337,9 +337,116 @@ code {
   background: #ef4444;
 }
 
+.budget-percentage {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #666;
+}
+
 .loading {
   text-align: center;
   padding: 50px;
   color: white;
   font-size: 1.5rem;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+  }
+
+  .header p {
+    font-size: 0.85rem;
+  }
+
+  .header {
+    margin-bottom: 15px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .stat-card {
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .stat-card h3 {
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .stat-card .amount {
+    font-size: 1.3rem;
+  }
+
+  .stat-card .progress-bar {
+    height: 6px;
+    margin-top: 6px;
+  }
+
+  .budget-percentage {
+    font-size: 0.7rem;
+    margin-top: 3px;
+  }
+
+  .card {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .alert {
+    padding: 10px;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+
+  .card h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.2rem;
+  }
+
+  .header p {
+    font-size: 0.8rem;
+  }
+
+  .dashboard-grid {
+    gap: 8px;
+  }
+
+  .stat-card {
+    padding: 10px;
+  }
+
+  .stat-card h3 {
+    font-size: 0.65rem;
+    margin-bottom: 5px;
+  }
+
+  .stat-card .amount {
+    font-size: 1.1rem;
+  }
+
+  .card h2 {
+    font-size: 0.9rem;
+  }
+
+  .card p {
+    font-size: 1.2rem !important;
+  }
 }

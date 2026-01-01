@@ -12,12 +12,14 @@ export default function BudgetForm({ currentBudget, onUpdate }) {
 
   return (
     <div className="card">
-      <h2 style={{ marginBottom: '15px' }}>Wedding Budget</h2>
       {!isEditing ? (
-        <div>
-          <p style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '10px' }}>
-            ₹{parseFloat(currentBudget).toLocaleString('en-IN')}
-          </p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+            <h2 style={{ margin: 0 }}>Wedding Budget:</h2>
+            <p style={{ fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>
+              ₹{parseFloat(currentBudget).toLocaleString('en-IN')}
+            </p>
+          </div>
           <button className="btn btn-primary" onClick={() => setIsEditing(true)}>
             Update Budget
           </button>

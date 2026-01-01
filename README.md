@@ -1,4 +1,4 @@
-# Wedding Expense Calculator (Next.js)
+# Jitendra Wedding Expense Calculator (Next.js)
 
 A full-stack web application built with Next.js to manage and track wedding expenses with budget monitoring, partial payment support, and comprehensive financial tracking.
 
